@@ -24,10 +24,11 @@
           transform: translate(-50%, -50%);
         }
         
-        .buttoncenter {
+        .textcenter {
+          height: 80px;
           margin: 0;
           position: absolute;
-          top: 60%;
+          top: 50%;
           left: 50%;
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -42,7 +43,16 @@
                 <h1>Internet of Things Bay</h1><br><br><br><br><br>
             </div>
             <div class="titlecenter">
-                <h1>Login Page!</h1>
+                <h1>Login Page</h1>
+            </div>
+            <div class="textcenter">
+                <form action="/action_page.php">
+                    <label for="email">Email:</label><br><br>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="password">Password:</label><br><br>
+                    <input type="password" id="password" name="password"><br><br><br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </body>
