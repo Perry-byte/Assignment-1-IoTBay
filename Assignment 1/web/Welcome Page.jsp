@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Login Page
-    Created on : 28 Mar 2023, 5:20:05 pm
+    Document   : Welcome Page
+    Created on : 28 Mar 2023, 6:38:18 pm
     Author     : John
 --%>
 
@@ -35,25 +35,11 @@
         }
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>IoTBay Login</title>
+        <title>IoTBay Welcome</title>
     </head>
     <body>
         <div class="container">
-            <div class="titlecenter">
-                <h1>Internet of Things Bay</h1><br><br><br><br><br>
-            </div>
-            <div class="titlecenter">
-                <h1>Login Page</h1>
-            </div>
-            <div class="textcenter">
-                <form action="Welcome Page.jsp">
-                    <label for="email">Email:</label><br><br>
-                    <input type="text" id="email" name="email"><br><br>
-                    <label for="password">Password:</label><br><br>
-                    <input type="password" id="password" name="password"><br><br><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+            <h1>Hey</h1>
         </div>
     </body>
 </html>
