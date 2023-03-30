@@ -28,7 +28,7 @@
           height: 80px;
           margin: 0;
           position: absolute;
-          top: 50%;
+          top: 30%;
           left: 50%;
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -39,7 +39,14 @@
     </head>
     <body>
         <div class="container">
-            <h1>Hey</h1>
+            <div class="textcenter">
+                <h1>Welcome!</h1><br><br><br>
+                <h2>
+                    <%= "Email: " + request.getParameter("email")%><br><br><br>
+                    <%= "Password: " + request.getParameter("password")%><br><br><br>
+                    <a href="index.html">Logout</a>
+                </h2>
+            </div>
         </div>
     </body>
 </html>
